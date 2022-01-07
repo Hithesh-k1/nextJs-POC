@@ -4,7 +4,11 @@ function MainHeader() {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <Link href="/">Next Event</Link>
+        <Link href="/">
+          <>
+            <img className={classes.logo__image} src="/event_logo.png" alt="logo" height="30" width="30"/> <span> Next Event</span>
+          </>
+        </Link>
       </div>
       <nav className={classes.navigation}>
         <ul>

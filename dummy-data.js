@@ -29,6 +29,16 @@ const DUMMY_EVENTS = [
       image: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
       isFeatured: true,
     },
+    {
+        id: 'e4',
+        title: 'React conf 2022',
+        description:
+          'React Summit is an annual conference on all things React, gathering thousands of Front-end and Full-stack engineers from around the world.',
+        location: 'My Street 14, 10115 Amsterdam',
+        date: '2022-05-10',
+        image: 'https://digitalagencynetwork.com/wp-content/uploads/2020/01/react-summit-amsterdam-2020.jpg',
+        isFeatured: true,
+      },
   ];
   
   export function getFeaturedEvents() {
